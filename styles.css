@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background: #042F2E; /* verde profundo estilo Superside */
+    background: linear-gradient(135deg, #042F2E 0%, #FFFFFF 100%); /* verde -> blanco */
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: #E5E7EB; /* texto claro */
+    color: #FFFFFF; /* body copy en blanco */
 }
 
 /* ===== CONTENEDOR PRINCIPAL ===== */
@@ -71,7 +71,7 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #34D399; /* verde menta */
+    color: #FFFFFF; /* nombre en blanco */
     margin-bottom: 8px;
     letter-spacing: -0.5px;
 }
@@ -79,7 +79,7 @@ body {
 .profile-lastname {
     font-size: 24px;
     font-weight: 500;
-    color: #E5E7EB; /* texto claro */
+    color: #FFFFFF; /* apellido en blanco */
     margin-bottom: 16px;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .profile-details p {
     font-size: 16px;
-    color: #9CA3AF; /* gris medio */
+    color: #FFFFFF; /* detalles en blanco */
     font-weight: 400;
 }
 
@@ -102,7 +102,7 @@ body {
     gap: 12px;
     font-size: 20px;
     font-weight: 600;
-    color: #34D399; /* verde menta */
+    color: #34D399; /* neon green */
     margin-bottom: 20px;
     padding-bottom: 8px;
     border-bottom: 2px solid rgba(52,211,153,0.3);
