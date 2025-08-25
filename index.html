@@ -1,20 +1,26 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile Card</title>
     
-    <!-- Google Fonts - Material Design Typography -->
+    <!-- Google Fonts - Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <!-- Contenedor principal con efecto fade-in -->
@@ -25,21 +31,21 @@
             
             <!-- Sección de información personal -->
             <div class="profile-header">
-                <!-- FOTO DE PERFIL - MODIFICAR AQUÍ -->
+                <!-- FOTO DE PERFIL -->
                 <div class="profile-image-container">
-                    <img src="https://placehold.co/150x150/2196F3/FFFFFF?text=Tu+Foto" 
+                    <img src="Cande-Profile-Card/MiFoto.jpeg" 
                          alt="Foto de perfil" 
                          class="profile-image">
                 </div>
                 
-                <!-- INFORMACIÓN PERSONAL - MODIFICAR AQUÍ -->
+                <!-- INFORMACIÓN PERSONAL -->
                 <div class="profile-info">
-                    <h1 class="profile-name">Kiwi</h1>
-                    <h2 class="profile-lastname">Martinez</h2>
+                    <h1 class="profile-name">Candelaria</h1>
+                    <h2 class="profile-lastname">Maqueda</h2>
                     <div class="profile-details">
-                        <p class="profile-age">Edad: 99 años</p>
-                        <p class="profile-location">📍 Zona de Residencia</p>
-                        <p class="profile-career">🎓 Tu Carrera</p>
+                        <p class="profile-age">Edad: 27 años</p>
+                        <p class="profile-location">📍 Costa Rica</p>
+                        <p class="profile-career">🎓 Comunicación Digital</p>
                     </div>
                 </div>
             </div>
@@ -51,21 +57,12 @@
                     Habilidades
                 </h3>
                 
-                <!-- HABILIDADES - MODIFICAR AQUÍ -->
                 <div class="skills-container">
-                    <div class="skill-item">
-                        <span class="skill-name">Programación</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Diseño Web</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Análisis de Datos</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Comunicación</span>
-                    </div>
-                </div>
+                    <div class="skill-item"><span class="skill-name">Gestión de Proyectos Creativos</span></div>
+                    <div class="skill-item"><span class="skill-name">Diseño & Branding</span></div>
+                    <div class="skill-item"><span class="skill-name">Comunicación & Presentación</span></div>
+                    <div class="skill-item"><span class="skill-name">Estrategia de Contenidos</span></div>
+                  </div>
             </div>
             
             <!-- Sección de películas favoritas -->
@@ -74,12 +71,10 @@
                     <span class="material-icons">movie</span>
                     Películas Favoritas
                 </h3>
-                
-                <!-- PELÍCULAS FAVORITAS - MODIFICAR AQUÍ -->
                 <div class="favorites-list">
-                    <div class="favorite-item">1. Nombre de la Película 1</div>
-                    <div class="favorite-item">2. Nombre de la Película 2</div>
-                    <div class="favorite-item">3. Nombre de la Película 3</div>
+                    <div class="favorite-item">1. Interstellar</div>
+                    <div class="favorite-item">2. The Theory of Everything</div>
+                    <div class="favorite-item">3. Good Will Hunting</div>
                 </div>
             </div>
             
@@ -89,18 +84,16 @@
                     <span class="material-icons">music_note</span>
                     Discos Favoritos
                 </h3>
-                
-                <!-- DISCOS FAVORITOS - MODIFICAR AQUÍ -->
                 <div class="favorites-list">
-                    <div class="favorite-item">1. Nombre del Disco 1</div>
-                    <div class="favorite-item">2. Nombre del Disco 2</div>
-                    <div class="favorite-item">3. Nombre del Disco 3</div>
+                    <div class="favorite-item">1. Newman (I love) "I love therefore I am" 20219  </div>
+                    <div class="favorite-item">2. Hermanos Gutierrez "Hijos del Sol" 2020</div>
+                    <div class="favorite-item">3. Angus & Julia Stone "Down the Way" 2010</div>
                 </div>
             </div>
             
         </div>
         
-        <!-- Footer con información adicional -->
+        <!-- Footer -->
         <footer class="footer">
             <p>✨ Personal Profile Card - Creado con Material Design</p>
         </footer>
@@ -110,4 +103,4 @@
     <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
